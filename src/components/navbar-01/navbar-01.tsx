@@ -4,7 +4,7 @@ import { NavigationSheet } from "./navigation-sheet";
 
 const Navbar01Page = () => {
   return (
-    <nav className="h-16 bg-background border-b">
+    <nav className="h-16 bg-background border-b w-full fixed z-10">
       <div className="h-full flex items-center justify-between max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Left: Logo */}
         <div className="flex-shrink-0">

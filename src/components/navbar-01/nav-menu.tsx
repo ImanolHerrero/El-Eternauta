@@ -11,22 +11,22 @@ export const NavMenu = (props: NavigationMenuProps) => (
     <NavigationMenuList className="gap-6 space-x-0 data-[orientation=vertical]:flex-col data-[orientation=vertical]:items-start">
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
-          <a href="#">Home</a>
+          <a href="#inicio">Home</a>
         </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
-          <a href="#">Blog</a>
+          <a href="#testimonios">Testimonios</a>
         </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
-          <a href="#">About</a>
+          <a href="#equipo">Equipo</a>
         </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
-          <a href="#">Contact Us</a>
+          <a href="#faq">FAQ</a>
         </NavigationMenuLink>
       </NavigationMenuItem>
     </NavigationMenuList>

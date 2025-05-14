@@ -53,7 +53,10 @@ const testimonials = [
 ];
 
 const Testimonial05 = () => (
-  <div className="min-h-screen flex justify-center items-center py-12 px-6">
+  <div
+    className="min-h-screen flex justify-center items-center py-12 px-6"
+    id="testimonios"
+  >
     <div>
       <h2 className="mb-8 sm:mb-14 text-5xl md:text-6xl font-bold text-center tracking-tight">
         Testimonios
